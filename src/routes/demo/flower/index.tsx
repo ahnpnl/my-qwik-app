@@ -20,8 +20,14 @@ export default component$(() => {
   });
 
   return (
-    <>
+    <div class="container container-center">
+      <div role="presentation" class="ellipsis"></div>
+      <h1>
+        <span class="highlight">Generate</span> Flowers
+      </h1>
+
       <input
+        class="input"
         type="range"
         value={state.number}
         max={50}
@@ -49,7 +55,7 @@ export default component$(() => {
           />
         )).reverse()}
       </div>
-    </>
+    </div>
   );
 });
 
