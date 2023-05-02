@@ -5,7 +5,7 @@ devDependencies:
     specifier: 0.107.0
     version: 0.107.0(undici@5.22.0)
   '@builder.io/qwik-city':
-    specifier: ^0.107.0
+    specifier: 0.107.0
     version: 0.107.0
   '@types/eslint':
     specifier: 8.37.0
